@@ -3,7 +3,8 @@
 // import UseRef from './useRef';
 // import UseMemo from './useMemo';
 // import UseCallback from './useCallback';
-import UseContext from './useContext';
+// import UseContext from './useContext';
+import Customhook from './customHooks';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      <UseContext />
+      {/* <UseContext /> */}
+      <Customhook />
     </div>
   );
 }
